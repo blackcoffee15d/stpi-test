@@ -1,31 +1,41 @@
-{
-  "name": "stpi-test",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "@radix-ui/react-slot": "^1.0.2",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "lucide-react": "^0.294.0",
-    "tailwind-merge": "^2.0.0",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "typescript": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest"
-  }
-}
+[21:28:26.324] Running build in Washington, D.C., USA (East) – iad1
+[21:28:26.425] Cloning github.com/blackcoffee15d/stpi-test (Branch: main, Commit: eaa8946)
+[21:28:26.624] Cloning completed: 197.000ms
+[21:28:26.925] Previous build cache not available
+[21:28:27.106] Running "vercel build"
+[21:28:27.508] Vercel CLI 41.1.0
+[21:28:27.782] Installing dependencies...
+[21:28:31.419] npm error code ERESOLVE
+[21:28:31.419] npm error ERESOLVE could not resolve
+[21:28:31.420] npm error
+[21:28:31.420] npm error While resolving: stpi-test@0.1.0
+[21:28:31.420] npm error Found: react@18.3.1
+[21:28:31.420] npm error node_modules/react
+[21:28:31.420] npm error   react@"latest" from the root project
+[21:28:31.420] npm error   peer react@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-slot@1.1.2
+[21:28:31.420] npm error   node_modules/@radix-ui/react-slot
+[21:28:31.420] npm error     @radix-ui/react-slot@"^1.0.2" from the root project
+[21:28:31.421] npm error   1 more (lucide-react)
+[21:28:31.421] npm error
+[21:28:31.421] npm error Could not resolve dependency:
+[21:28:31.421] npm error next@"latest" from the root project
+[21:28:31.421] npm error
+[21:28:31.421] npm error Conflicting peer dependency: react@19.0.0
+[21:28:31.421] npm error node_modules/react
+[21:28:31.421] npm error   peer react@"^19.0.0" from react-dom@19.0.0
+[21:28:31.421] npm error   node_modules/react-dom
+[21:28:31.421] npm error     react-dom@"latest" from the root project
+[21:28:31.421] npm error     peer react-dom@"^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0" from next@15.1.7
+[21:28:31.421] npm error     node_modules/next
+[21:28:31.421] npm error       next@"latest" from the root project
+[21:28:31.421] npm error
+[21:28:31.421] npm error Fix the upstream dependency conflict, or retry
+[21:28:31.421] npm error this command with --force or --legacy-peer-deps
+[21:28:31.421] npm error to accept an incorrect (and potentially broken) dependency resolution.
+[21:28:31.421] npm error
+[21:28:31.421] npm error
+[21:28:31.421] npm error For a full report see:
+[21:28:31.421] npm error /vercel/.npm/_logs/2025-02-13T12_28_28_035Z-eresolve-report.txt
+[21:28:31.421] npm error A complete log of this run can be found in: /vercel/.npm/_logs/2025-02-13T12_28_28_035Z-debug-0.log
+[21:28:31.461] Error: Command "npm install" exited with 1
+[21:28:31.740] 
